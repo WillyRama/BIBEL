@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".HijaiyahActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/roboto_slab"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Hijaiyah"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textalif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/alif"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="25dp"
+                android:text="Alif"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/tsa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/text1h"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/ta"
+                android:src="@drawable/tsa" />
+
+            <TextView
+                android:id="@+id/texttsa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ba"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="40dp"
+                android:layout_toLeftOf="@id/textta"
+                android:text="Tsa"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ta"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/text1h"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/ba"
+                android:src="@drawable/ta" />
+
+            <TextView
+                android:id="@+id/textta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ba"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="46dp"
+                android:layout_toLeftOf="@id/textba"
+                android:text="Ta"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ba"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/text1h"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/alif"
+                android:src="@drawable/ba" />
+
+            <TextView
+                android:id="@+id/textba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ba"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="40dp"
+                android:layout_toLeftOf="@id/textalif"
+                android:text="Ba"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/alif"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/text1h"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/alif" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/jim"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/text1h"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="13dp"
+                android:layout_toLeftOf="@id/tsa"
+                android:src="@drawable/jim" />
+
+            <TextView
+                android:id="@+id/textjim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ba"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="35dp"
+                android:layout_toLeftOf="@id/texttsa"
+                android:text="Jim"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kha"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/alif"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/kha" />
+
+            <TextView
+                android:id="@+id/textkha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kha"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:text="Ha"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kho"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ba"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/kha"
+                android:src="@drawable/kho" />
+
+            <TextView
+                android:id="@+id/textkho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kha"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textkha"
+                android:layout_marginRight="40dp"
+                android:text="Kha"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ba"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/kho"
+                android:src="@drawable/dal" />
+
+            <TextView
+                android:id="@+id/textdal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kha"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textkho"
+                android:layout_marginRight="40dp"
+                android:text="Dal"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dzal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/jim"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/dal"
+                android:src="@drawable/dzal" />
+
+            <TextView
+                android:id="@+id/textdzal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kha"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textdal"
+                android:layout_marginRight="35dp"
+                android:text="Dzal"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ra"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/jim"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/dzal"
+                android:src="@drawable/ra" />
+
+            <TextView
+                android:id="@+id/textra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kha"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textdzal"
+                android:layout_marginRight="35dp"
+                android:text="Ra"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/zai"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/kha"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/zai" />
+
+            <TextView
+                android:id="@+id/textzai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zai"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:text="Zai"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/sin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/kha"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/zai"
+                android:src="@drawable/sin" />
+
+            <TextView
+                android:id="@+id/textsin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sin"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textzai"
+                android:layout_marginRight="40dp"
+                android:text="Sin"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/syin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/kha"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/sin"
+                android:src="@drawable/syin" />
+
+            <TextView
+                android:id="@+id/textsyin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sin"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textsin"
+                android:layout_marginRight="40dp"
+                android:text="Syin"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/shad"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/kha"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/syin"
+                android:src="@drawable/shad" />
+
+            <TextView
+                android:id="@+id/textshad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sin"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textsyin"
+                android:layout_marginRight="20dp"
+                android:text="Shad"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dhad"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dzal"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/shad"
+                android:src="@drawable/dhad" />
+
+            <TextView
+                android:id="@+id/textdhad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sin"
+                android:layout_marginTop="6dp"
+                android:layout_toLeftOf="@id/textshad"
+                android:layout_marginRight="25dp"
+                android:text="Dhad"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/tha"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/zai"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/tha" />
+
+            <TextView
+                android:id="@+id/texttha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tha"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Tha"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/zha"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/sin"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/tha"
+                android:src="@drawable/zha" />
+
+            <TextView
+                android:id="@+id/textzha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:layout_toLeftOf="@id/texttha"
+                android:text="Zha"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ain"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/sin"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/zha"
+                android:src="@drawable/ain" />
+
+            <TextView
+                android:id="@+id/textain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:layout_toLeftOf="@id/textzha"
+                android:text="'Ain"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ghin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dhad"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/ain"
+                android:src="@drawable/ghin" />
+
+            <TextView
+                android:id="@+id/textghin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:layout_toLeftOf="@id/textain"
+                android:text="Ghin"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/qaf"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tha"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/qaf" />
+
+            <TextView
+                android:id="@+id/textfa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="38dp"
+                android:layout_toLeftOf="@id/textghin"
+                android:text="Fa"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textqaf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qaf"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:text="Qaf"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/dhad"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/ghin"
+                android:src="@drawable/fa" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/kaf"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tha"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/qaf"
+                android:src="@drawable/kaf" />
+
+            <TextView
+                android:id="@+id/textkaf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kaf"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="38dp"
+                android:layout_toLeftOf="@id/textqaf"
+                android:text="Kaf"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/lam"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/ghin"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/kaf"
+                android:src="@drawable/lam" />
+
+            <TextView
+                android:id="@+id/textlam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kaf"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@id/textkaf"
+                android:text="Lam"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/mim"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/fa"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/lam"
+                android:src="@drawable/mim" />
+
+            <TextView
+                android:id="@+id/textmim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kaf"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@id/textlam"
+                android:text="Mim"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/nun"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/fa"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/mim"
+                android:src="@drawable/nun" />
+
+            <TextView
+                android:id="@+id/textnun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kaf"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:layout_toLeftOf="@id/textmim"
+                android:text="Nun"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/wau"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/qaf"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/wau" />
+
+            <TextView
+                android:id="@+id/textwau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wau"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Wau"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ha"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/qaf"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/wau"
+                android:src="@drawable/ha" />
+
+            <TextView
+                android:id="@+id/textha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="35dp"
+                android:layout_toLeftOf="@id/textwau"
+                android:text="Ha"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/lamalif"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/kaf"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/ha"
+                android:src="@drawable/lamalif" />
+
+            <TextView
+                android:id="@+id/textlamalif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@id/textha"
+                android:text="Lam Alif"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/hamzah"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/mim"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/lamalif"
+                android:src="@drawable/hamzah" />
+
+            <TextView
+                android:id="@+id/texthamzah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/textlamalif"
+                android:text="Hamzah"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ya"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/nun"
+                android:layout_marginTop="45dp"
+                android:layout_toLeftOf="@id/hamzah"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/ya" />
+
+            <TextView
+                android:id="@+id/textya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ha"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="18dp"
+                android:layout_toLeftOf="@id/texthamzah"
+                android:text="Ya"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

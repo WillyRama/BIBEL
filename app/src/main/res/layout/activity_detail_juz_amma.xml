@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailJuzAmmaActivity"
+    android:background="@color/bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/hidingSurat"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/bg"
+                android:gravity="center_horizontal"
+                android:text="Surat"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bismillah2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/hidingSurat"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:text="بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcayat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bismillah2"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp" />
+
+<!--            <Button-->
+<!--                android:id="@+id/suara"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:background="@drawable/suara"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginLeft="30dp"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/suarastop"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:background="@drawable/suaramati"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginLeft="30dp"/>-->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/suara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:contentDescription="Play"
+                android:src="@drawable/suara"
+                app:backgroundTint="@color/bg"
+                app:elevation="4dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/suarastop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Stop"
+                android:src="@drawable/suaramati"
+                app:backgroundTint="@color/bg"
+                app:elevation="4dp" />
+
+            <ToggleButton
+                android:id="@+id/fav"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/hidingSurat"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/favori"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textOff=""
+                android:textOn="" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
